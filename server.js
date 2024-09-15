@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const Book = require("./init")
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: ["https://frontend-lake-nine-91.vercel.app"],
 };
 
 app.use(cors(corsOptions));
