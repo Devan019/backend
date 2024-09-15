@@ -2,7 +2,6 @@ const mongoose = require("mongoose")
 
 const connection =  async() =>{
     await mongoose.connect("mongodb+srv://newUserDevan:aa-DK5_jDL.PWgU@cluster0.ettpzze.mongodb.net/amazon");
-
 }
 
 connection()
