@@ -20,5 +20,10 @@ const bookSchema = mongoose.Schema({
 })
 
 const Book = new mongoose.model("Book" , bookSchema);
-
+Book.create({
+    from : "devan",
+    to : "devab",
+    msg : "fwn",
+    _created_at : new Date()
+})
 module.exports = Book
